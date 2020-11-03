@@ -105,3 +105,122 @@ send, %OutputVar%
 send, {enter}
 }
 return
+
+^Numpad0::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+send,1
+send, {enter}
+}
+return
+
+^Numpad1::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 4,7
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad2::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 10,18
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad3::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 17,23
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad4::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 26,35
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad5::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 58,67
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad6::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 89,97
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad7::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 153,171
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad8::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 344,377
+send, %OutputVar%
+send, {enter}
+}
+return
+
+^Numpad9::
+{
+send, !p
+sleep,5
+send, !i
+sleep,5
+Random, OutputVar, 708,733
+send, %OutputVar%
+send, {enter}
+}
+return
